@@ -17,7 +17,7 @@ function increment() {
 
 function save() {
     let countStr = count + " - "
-    saveEl.textContent += countStr
+    saveEl.textContent += countStr // Fix bug når javascript trigger teksten så flytter ikke hele bilde på seg
     countEl.textContent = 0
     easterEl.textContent = "";
     count = 0
